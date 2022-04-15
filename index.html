@@ -7,16 +7,22 @@
 </head>
 <body>
 	<div id="left">
-		<div></div>
+		<div id="logo-section">
+			<img src="Images/odin-lined.png">
+			<p>odin</p>
+		</div>
 		<div></div>
 	</div>
 
 	<div id="right">
-	<p>This is not a real online service! You know you need something like this in your life to help you realize your deepest dreams. Sign up now to get started.</p>
-	<p>You know you want to.</p>
+	<div class="text">
+	<p>This is not a real online service! You know you need something like this in your life to help you realize your deepest dreams.<br> Sign up <em>now</em> to get started.</p>
+	<p>You <em>know</em> you want to.</p>
+	</div>
 
 	<form>
-		<h1>Let's do this!</h1>
+		<div id="form-tab">
+		<h3>Let's do this!</h3>
 		<div id="form-grid">
 			<label>
 				first name
@@ -40,18 +46,22 @@
 
 			<label>
 				password
-				<input type="password" name="passwd">
+				<input type="password" name="passwd"
+				 class="error">
+				<div class="error-message">*Passwords do not match</div> <!-- Could be inserted with javascript-->
 			</label>
 
 			<label>
 				confirm password
-				<input type="password">
+				<input type="password"
+				 class="error">
 			</label>
 		</div>
+		</div>
+		<button type="submit">Create Account</button>
 	</form>
-	<button type="submit">Create Account</button>
-	<p>Already have an accout? <a href="index.html">Log in</a></p>
-
+	<p>Already have an account? <a href="index.html">Log in</a></p>
+	</div>
 </body>
 </html>
 
