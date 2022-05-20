@@ -1,1 +1,1 @@
-My solution for the Sign-up Form assignment from [The Odin Project](https://www.theodinproject.com/lessons/node-path-intermediate-html-and-css-sign-up-form)
+My solution for the [Sign-up Form](https://www.theodinproject.com/lessons/node-path-intermediate-html-and-css-sign-up-form) assignment from [The Odin Project](https://www.theodinproject.com). Be not mistaken, I wouldn't do this kind of soydev outside of commissions.
